@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+p { 
+  font-size: 20px;
+  font-family: 'Noto Sans TC', sans-serif;
+  width: 250px;
+  word-wrap: break-word;
+}
+
+.small{ 
+  font-size: 15px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+img{
+  max-height:200px;
+  height:auto;
+  width:auto;
+}
+
+input {
+  background-color: white;
+  color: rgb(12, 12, 12);
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 0.865rem;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  padding: 0.925rem 1.65rem;
+  border: 2px solid transparent;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;        
+  -webkit-transition: all 450ms ease-in-out;
+  -moz-transition: all 450ms ease-in-out;
+  -o-transition: all 450ms ease-in-out;
+  -ms-transition: all 450ms ease-in-out;
+  transition: all 450ms ease-in-out; 
+}
+
+input[type=text]{
+  background-color: white; 
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+}
+
+
+.small-footer {
+  font-size: 12px;
+  font-family: 'Noto Sans TC', sans-serif;
+  width: 300px;
+  word-wrap: break-word;
+}
+
+a{
+  color: #858585;
+}
