@@ -36,7 +36,7 @@ function App() {
         </p>
         <br />
         <p className="small-footer">
-          <a href="https://github.com/stanly-johnson/WhatsApp-Anyone">Powered by OpenSource | View code on Github</a>
+          <a href="https://github.com/stanly-johnson/whatsapp-anyone">Powered by OpenSource | View code on Github</a>
         </p>
       </header>
     </div>
